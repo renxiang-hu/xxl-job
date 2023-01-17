@@ -13,6 +13,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -43,6 +44,11 @@ public class SampleXxlJob {
             TimeUnit.SECONDS.sleep(2);
         }
         // default success
+    }
+
+    @XxlJob("firstJobHandler")
+    public void demoHandler(){
+        System.out.println("hello world" + new Date());
     }
 
 

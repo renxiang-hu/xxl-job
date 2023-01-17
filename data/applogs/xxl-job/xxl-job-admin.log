@@ -1,0 +1,1024 @@
+2023-01-17 13:17:13,288 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 31335 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 13:17:13,292 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 13:17:14,589 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 13:17:14,598 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 13:17:14,598 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 13:17:14,598 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 13:17:15,004 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 13:17:15,004 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 1449 ms
+2023-01-17 13:17:15,449 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 13:17:15,460 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 13:17:15,632 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 13:17:15,901 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 13:17:16,107 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 13:17:16,132 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 13:17:16,154 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 13:17:16,154 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 13:17:16,155 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 13:17:16,156 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 13:17:16,169 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 3.274 seconds (JVM running for 4.086)
+2023-01-17 13:17:20,000 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 14:58:03,221 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 78481 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 14:58:03,223 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 14:58:04,620 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 14:58:04,629 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 14:58:04,629 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 14:58:04,629 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 14:58:04,734 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 14:58:04,735 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 1309 ms
+2023-01-17 14:58:05,149 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 14:58:05,161 INFO [xxl-job, admin JobFailMonitorHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 14:58:05,323 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 14:58:05,549 INFO [xxl-job, admin JobFailMonitorHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 14:58:05,708 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 14:58:05,734 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 14:58:05,760 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 14:58:05,760 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 14:58:05,761 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 14:58:05,762 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 14:58:05,776 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.836 seconds (JVM running for 5.525)
+2023-01-17 14:58:10,002 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 14:58:23,241 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 78675 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 14:58:23,244 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 14:58:24,349 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 14:58:24,354 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 14:58:24,355 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 14:58:24,355 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 14:58:24,420 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 14:58:24,420 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 984 ms
+2023-01-17 14:58:24,719 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 14:58:24,728 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 14:58:24,867 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 14:58:24,982 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 14:58:25,165 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 14:58:25,185 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 14:58:25,205 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 14:58:25,205 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 14:58:25,206 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 14:58:25,207 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 14:58:25,218 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.206 seconds (JVM running for 2.833)
+2023-01-17 14:58:29,002 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 15:25:49,365 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 92741 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 15:25:49,367 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 15:25:50,345 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 15:25:50,351 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 15:25:50,351 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 15:25:50,351 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 15:25:50,413 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 15:25:50,413 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 869 ms
+2023-01-17 15:25:50,702 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 15:25:50,711 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 15:25:50,849 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 15:25:50,949 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 15:25:51,133 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 15:25:51,156 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 15:25:51,177 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 15:25:51,177 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 15:25:51,178 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 15:25:51,179 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 15:25:51,192 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.04 seconds (JVM running for 2.592)
+2023-01-17 15:25:55,001 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 15:36:22,143 ERROR [http-nio-8080-exec-7] c.x.j.a.controller.JobInfoController [JobInfoController.java : 173] Unexpected end of expression.
+java.text.ParseException: Unexpected end of expression.
+	at com.xxl.job.admin.core.cron.CronExpression.buildExpression(CronExpression.java:498)
+	at com.xxl.job.admin.core.cron.CronExpression.<init>(CronExpression.java:279)
+	at com.xxl.job.admin.core.thread.JobScheduleHelper.generateNextValidTime(JobScheduleHelper.java:361)
+	at com.xxl.job.admin.controller.JobInfoController.nextTriggerTime(JobInfoController.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 15:36:22,146 ERROR [http-nio-8080-exec-2] c.x.j.a.controller.JobInfoController [JobInfoController.java : 173] Unexpected end of expression.
+java.text.ParseException: Unexpected end of expression.
+	at com.xxl.job.admin.core.cron.CronExpression.buildExpression(CronExpression.java:498)
+	at com.xxl.job.admin.core.cron.CronExpression.<init>(CronExpression.java:279)
+	at com.xxl.job.admin.core.thread.JobScheduleHelper.generateNextValidTime(JobScheduleHelper.java:361)
+	at com.xxl.job.admin.controller.JobInfoController.nextTriggerTime(JobInfoController.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 15:36:26,477 ERROR [http-nio-8080-exec-1] c.x.j.a.controller.JobInfoController [JobInfoController.java : 173] Unexpected end of expression.
+java.text.ParseException: Unexpected end of expression.
+	at com.xxl.job.admin.core.cron.CronExpression.buildExpression(CronExpression.java:498)
+	at com.xxl.job.admin.core.cron.CronExpression.<init>(CronExpression.java:279)
+	at com.xxl.job.admin.core.thread.JobScheduleHelper.generateNextValidTime(JobScheduleHelper.java:361)
+	at com.xxl.job.admin.controller.JobInfoController.nextTriggerTime(JobInfoController.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 15:36:26,481 ERROR [http-nio-8080-exec-5] c.x.j.a.controller.JobInfoController [JobInfoController.java : 173] Unexpected end of expression.
+java.text.ParseException: Unexpected end of expression.
+	at com.xxl.job.admin.core.cron.CronExpression.buildExpression(CronExpression.java:498)
+	at com.xxl.job.admin.core.cron.CronExpression.<init>(CronExpression.java:279)
+	at com.xxl.job.admin.core.thread.JobScheduleHelper.generateNextValidTime(JobScheduleHelper.java:361)
+	at com.xxl.job.admin.controller.JobInfoController.nextTriggerTime(JobInfoController.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 15:36:30,577 ERROR [http-nio-8080-exec-6] c.x.j.a.controller.JobInfoController [JobInfoController.java : 173] Unexpected end of expression.
+java.text.ParseException: Unexpected end of expression.
+	at com.xxl.job.admin.core.cron.CronExpression.buildExpression(CronExpression.java:498)
+	at com.xxl.job.admin.core.cron.CronExpression.<init>(CronExpression.java:279)
+	at com.xxl.job.admin.core.thread.JobScheduleHelper.generateNextValidTime(JobScheduleHelper.java:361)
+	at com.xxl.job.admin.controller.JobInfoController.nextTriggerTime(JobInfoController.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 15:36:30,580 ERROR [http-nio-8080-exec-3] c.x.j.a.controller.JobInfoController [JobInfoController.java : 173] Unexpected end of expression.
+java.text.ParseException: Unexpected end of expression.
+	at com.xxl.job.admin.core.cron.CronExpression.buildExpression(CronExpression.java:498)
+	at com.xxl.job.admin.core.cron.CronExpression.<init>(CronExpression.java:279)
+	at com.xxl.job.admin.core.thread.JobScheduleHelper.generateNextValidTime(JobScheduleHelper.java:361)
+	at com.xxl.job.admin.controller.JobInfoController.nextTriggerTime(JobInfoController.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 15:56:34,926 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 15:56:35,000 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 15:56:35,929 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 15:56:35,930 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 15:56:35,930 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 15:56:35,931 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 15:56:35,931 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 15:56:35,932 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 15:56:35,934 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 15:56:35,939 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 15:56:39,181 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 8805 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 15:56:39,182 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 15:56:40,077 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 15:56:40,083 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 15:56:40,084 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 15:56:40,084 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 15:56:40,143 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 15:56:40,144 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 826 ms
+2023-01-17 15:56:40,426 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 15:56:40,435 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 15:56:40,567 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 15:56:40,665 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 15:56:40,834 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 15:56:40,853 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 15:56:40,871 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 15:56:40,871 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 15:56:40,872 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 15:56:40,873 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 15:56:40,885 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 1.892 seconds (JVM running for 3.408)
+2023-01-17 15:56:45,001 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:05:06,000 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 16:05:07,002 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 16:05:07,161 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 16:05:07,161 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 16:05:07,162 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 16:05:07,162 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 16:05:07,162 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 16:05:07,162 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 16:05:07,164 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 16:05:07,171 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 16:05:10,415 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 13037 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 16:05:10,417 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 16:05:11,369 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 16:05:11,376 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:05:11,377 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 16:05:11,377 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 16:05:11,442 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 16:05:11,443 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 877 ms
+2023-01-17 16:05:11,757 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 16:05:11,768 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 16:05:11,905 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 16:05:12,029 INFO [xxl-job, admin JobLogReportHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 16:05:12,214 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 16:05:12,237 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:05:12,257 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 16:05:12,257 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 16:05:12,258 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 16:05:12,259 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 16:05:12,270 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.066 seconds (JVM running for 3.7)
+2023-01-17 16:05:15,998 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:05:16,003 WARN [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 88] >>>>>>>>>>> xxl-job, schedule misfire, jobId = 3
+2023-01-17 16:19:25,733 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 16:19:26,003 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 16:19:26,736 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 16:19:26,736 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 16:19:26,737 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 16:19:26,737 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 16:19:26,737 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 16:19:26,738 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 16:19:26,742 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 16:19:26,748 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 16:19:29,976 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 20219 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 16:19:29,978 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 16:19:30,987 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 16:19:30,995 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:19:30,995 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 16:19:30,995 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 16:19:31,067 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 16:19:31,067 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 930 ms
+2023-01-17 16:19:31,404 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 16:19:31,413 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 16:19:31,563 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 16:19:31,679 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 16:19:31,889 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 16:19:31,915 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:19:31,936 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 16:19:31,936 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 16:19:31,937 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 16:19:31,938 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 16:19:31,951 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.195 seconds (JVM running for 3.834)
+2023-01-17 16:19:35,343 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:19:35,343 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 16:19:36,002 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 16:19:36,345 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 16:19:36,346 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 16:19:36,346 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 16:19:36,347 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 16:19:36,347 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 16:19:36,347 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 16:19:36,350 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 16:19:36,360 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 16:19:42,710 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 20370 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 16:19:42,713 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 16:19:43,757 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 16:19:43,763 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:19:43,763 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 16:19:43,764 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 16:19:43,823 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 16:19:43,823 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 905 ms
+2023-01-17 16:19:44,108 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 16:19:44,117 INFO [xxl-job, admin JobFailMonitorHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 16:19:44,255 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 16:19:44,352 INFO [xxl-job, admin JobFailMonitorHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 16:19:44,538 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 16:19:44,559 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:19:44,577 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 16:19:44,578 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 16:19:44,579 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 16:19:44,579 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 16:19:44,591 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.117 seconds (JVM running for 2.691)
+2023-01-17 16:19:49,003 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:29:26,143 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 16:29:27,001 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 16:29:27,145 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 16:29:27,145 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 16:29:27,146 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 16:29:27,146 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 16:29:27,146 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 16:29:27,146 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 16:29:27,147 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 16:29:27,154 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 16:29:31,548 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 25377 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 16:29:31,550 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 16:29:32,627 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 16:29:32,633 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:29:32,634 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 16:29:32,634 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 16:29:32,697 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 16:29:32,698 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 971 ms
+2023-01-17 16:29:33,033 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 16:29:33,042 INFO [xxl-job, admin JobFailMonitorHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 16:29:33,189 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 16:29:33,298 INFO [xxl-job, admin JobFailMonitorHelper] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 16:29:33,500 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 16:29:33,522 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:29:33,540 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 16:29:33,541 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 16:29:33,542 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 16:29:33,542 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 16:29:33,554 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.213 seconds (JVM running for 2.768)
+2023-01-17 16:29:38,001 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:32:37,404 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 16:32:38,004 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 16:32:38,405 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 16:32:38,405 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 16:32:38,405 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 16:32:38,406 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 16:32:38,406 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 16:32:38,406 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 16:32:38,408 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 16:32:38,415 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 16:32:42,797 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 26958 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 16:32:42,799 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 16:32:43,705 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 16:32:43,711 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:32:43,711 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 16:32:43,711 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 16:32:43,772 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 16:32:43,772 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 837 ms
+2023-01-17 16:32:44,060 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 16:32:44,069 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 16:32:44,204 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 16:32:44,303 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 16:32:44,473 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 16:32:44,492 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:32:44,510 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 16:32:44,511 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 16:32:44,512 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 16:32:44,512 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 16:32:44,524 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 1.909 seconds (JVM running for 3.441)
+2023-01-17 16:32:49,003 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:58:03,723 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 16:58:04,001 INFO [xxl-job, admin JobScheduleHelper#ringThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 264] >>>>>>>>>>> xxl-job, JobScheduleHelper#ringThread stop
+2023-01-17 16:58:04,725 INFO [SpringApplicationShutdownHook] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 353] >>>>>>>>>>> xxl-job, JobScheduleHelper stop
+2023-01-17 16:58:04,725 INFO [xxl-job, admin JobLogReportHelper] c.x.j.a.c.thread.JobLogReportHelper [JobLogReportHelper.java : 132] >>>>>>>>>>> xxl-job, job log report thread stop
+2023-01-17 16:58:04,725 INFO [xxl-job, admin JobLosedMonitorHelper] c.x.j.a.c.thread.JobCompleteHelper [JobCompleteHelper.java : 111] >>>>>>>>>>> xxl-job, JobLosedMonitorHelper stop
+2023-01-17 16:58:04,726 INFO [xxl-job, admin JobFailMonitorHelper] c.x.j.a.c.t.JobFailMonitorHelper [JobFailMonitorHelper.java : 90] >>>>>>>>>>> xxl-job, job fail monitor thread stop
+2023-01-17 16:58:04,726 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] c.x.j.a.c.thread.JobRegistryHelper [JobRegistryHelper.java : 123] >>>>>>>>>>> xxl-job, job registry monitor thread stop
+2023-01-17 16:58:04,726 INFO [SpringApplicationShutdownHook] c.x.j.a.c.t.JobTriggerPoolHelper [JobTriggerPoolHelper.java : 60] >>>>>>>>> xxl-job trigger thread pool shutdown success.
+2023-01-17 16:58:04,728 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 350] HikariCP - Shutdown initiated...
+2023-01-17 16:58:04,735 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 352] HikariCP - Shutdown completed.
+2023-01-17 16:58:09,657 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 55] Starting XxlJobAdminApplication using Java 11.0.11 on hurenxiangdeMacBook-Pro.local with PID 39671 (/Users/hurenxiang/Desktop/javaTest/xxl-job/xxl-job-admin/target/classes started by hurenxiang in /Users/hurenxiang/Desktop/javaTest/xxl-job)
+2023-01-17 16:58:09,659 INFO [main] c.x.job.admin.XxlJobAdminApplication [SpringApplication.java : 640] No active profile set, falling back to 1 default profile: "default"
+2023-01-17 16:58:10,684 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 108] Tomcat initialized with port(s): 8080 (http)
+2023-01-17 16:58:10,692 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:58:10,693 INFO [main] o.a.catalina.core.StandardService [DirectJDKLog.java : 173] Starting service [Tomcat]
+2023-01-17 16:58:10,693 INFO [main] o.a.catalina.core.StandardEngine [DirectJDKLog.java : 173] Starting Servlet engine: [Apache Tomcat/9.0.62]
+2023-01-17 16:58:10,774 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring embedded WebApplicationContext
+2023-01-17 16:58:10,774 INFO [main] o.s.b.w.s.c.ServletWebServerApplicationContext [ServletWebServerApplicationContext.java : 290] Root WebApplicationContext: initialization completed in 960 ms
+2023-01-17 16:58:11,132 INFO [main] c.x.j.a.c.scheduler.XxlJobScheduler [XxlJobScheduler.java : 45] >>>>>>>>> init xxl-job admin success.
+2023-01-17 16:58:11,143 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 110] HikariCP - Starting...
+2023-01-17 16:58:11,319 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java : 57] Adding welcome page template: index
+2023-01-17 16:58:11,458 INFO [xxl-job, admin JobRegistryMonitorHelper-registryMonitorThread] com.zaxxer.hikari.HikariDataSource [HikariDataSource.java : 123] HikariCP - Start completed.
+2023-01-17 16:58:11,655 INFO [main] o.s.b.a.e.web.EndpointLinksResolver [EndpointLinksResolver.java : 58] Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-01-17 16:58:11,680 INFO [main] o.a.coyote.http11.Http11NioProtocol [DirectJDKLog.java : 173] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-17 16:58:11,700 INFO [main] o.a.c.c.C.[.[.[/xxl-job-admin] [DirectJDKLog.java : 173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-17 16:58:11,701 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 525] Initializing Servlet 'dispatcherServlet'
+2023-01-17 16:58:11,702 INFO [main] o.s.web.servlet.DispatcherServlet [FrameworkServlet.java : 547] Completed initialization in 1 ms
+2023-01-17 16:58:11,702 INFO [main] o.s.b.w.e.tomcat.TomcatWebServer [TomcatWebServer.java : 220] Tomcat started on port(s): 8080 (http) with context path '/xxl-job-admin'
+2023-01-17 16:58:11,715 INFO [main] c.x.job.admin.XxlJobAdminApplication [StartupInfoLogger.java : 61] Started XxlJobAdminApplication in 2.275 seconds (JVM running for 3.908)
+2023-01-17 16:58:16,003 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 52] >>>>>>>>> init xxl-job admin scheduler success.
+2023-01-17 16:58:48,031 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-1011605072] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:58:58,009 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-1383659265] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:03,014 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-1215957157] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:08,016 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-715257508] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:13,012 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-426158322] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:18,015 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-204702752] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:23,011 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-336894499] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:28,009 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-832920275] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:30,008 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-489182509] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:53,011 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-1215957157] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 16:59:58,008 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-715257508] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 17:00:03,008 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-426158322] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 17:00:08,015 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-204702752] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 17:00:13,009 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-336894499] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 17:00:18,014 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-832920275] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Read timed out
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:115)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:292)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:754)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2023-01-17 17:02:49,221 INFO [xxl-job, admin JobScheduleHelper#scheduleThread] c.x.j.a.c.thread.JobScheduleHelper [JobScheduleHelper.java : 212] >>>>>>>>>>> xxl-job, JobScheduleHelper#scheduleThread stop
+2023-01-17 17:02:50,005 ERROR [xxl-job, admin JobTriggerPoolHelper-fastTriggerPool-489182509] c.x.job.core.util.XxlJobRemotingUtil [XxlJobRemotingUtil.java : 143] Connection refused (Connection refused)
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:859)
+	at java.base/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:689)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1615)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:119)
+	at com.xxl.job.core.biz.client.ExecutorBizClient.run(ExecutorBizClient.java:43)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.runExecutor(XxlJobTrigger.java:211)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.processTrigger(XxlJobTrigger.java:164)
+	at com.xxl.job.admin.core.trigger.XxlJobTrigger.trigger(XxlJobTrigger.java:89)
+	at com.xxl.job.admin.core.thread.JobTriggerPoolHelper$3.run(JobTriggerPoolHelper.java:95)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
